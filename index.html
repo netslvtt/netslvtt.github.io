@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Левитин Алексей — портфолио</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- ================= NAV ================= -->
+<header class="topbar">
+  <span class="prompt">netslvtt@portfolio<span class="cursor">_</span></span>
+  <nav>
+    <a href="#about">~/about</a>
+    <a href="#work">~/work</a>
+    <a href="#skills">~/skills</a>
+    <a href="#contact">~/contact</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <p class="path">~ $ whoami</p>
+  <h1>Левитин Алексей</h1>
+  <p class="tagline">Фронтенд/бэкенд-разработчик. В IT с детства — дома стоят VAX-station'ы и AlphaServer'ы, и это направление продолжает затягивать.</p>
+  <div class="hero-links">
+    <a class="btn btn-primary" href="#work">Смотреть проекты</a>
+    <a class="btn btn-ghost" href="#contact">Связаться</a>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <h2><span class="dir">~/about</span></h2>
+  <div class="about-grid">
+    <p class="about-text">
+      В IT с детства — рос среди VAX-station'ов и AlphaServer'ов, и это
+      направление так и не отпустило. Реализовывал SSO-систему и
+      асинхронные очереди. Коммерческого опыта пока нет, но я активно
+      развиваюсь и открыт к предложениям.
+    </p>
+    <ul class="facts">
+      <li><span>Стек</span>Python · C++ · C# · Docker</li>
+      <li><span>Также</span>SQL · уверенный Linux-user</li>
+      <li><span>Сейчас</span>Открыт к предложениям</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work" class="section">
+  <h2><span class="dir">~/work</span></h2>
+  <div class="projects">
+
+    <article class="project">
+      <div class="project-head">
+        <h3>SSO-система</h3>
+        <span class="tag">python</span>
+      </div>
+      <p>Реализация единой точки авторизации (Single Sign-On) для разграничения доступа между сервисами.</p>
+      <div class="project-links">
+        <a href="#">Репозиторий скоро →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-head">
+        <h3>Асинхронные очереди</h3>
+        <span class="tag">python</span>
+      </div>
+      <p>Обработка задач через асинхронные очереди сообщений — без блокировки основного потока выполнения.</p>
+      <div class="project-links">
+        <a href="#">Репозиторий скоро →</a>
+      </div>
+    </article>
+
+    <article class="project project-empty">
+      <div class="project-head">
+        <h3>Ещё в разработке</h3>
+      </div>
+      <p>Здесь появятся следующие проекты по мере готовности.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+  <h2><span class="dir">~/skills</span></h2>
+  <div class="skills-list">
+    <span class="skill">Python</span>
+    <span class="skill">C++</span>
+    <span class="skill">C#</span>
+    <span class="skill">Docker</span>
+    <span class="skill">SQL</span>
+    <span class="skill">Linux</span>
+    <span class="skill">Git</span>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section contact">
+  <h2><span class="dir">~/contact</span></h2>
+  <p>Открыт(а) к предложениям и интересным задачам. Проще всего написать сюда:</p>
+  <div class="contact-links">
+    <a href="mailto:netslvtt@gmail.com">Email</a>
+    <a href="https://github.com/netslvtt">GitHub</a>
+    <a href="https://t.me/netslvtt">Telegram</a>
+  </div>
+</section>
+
+<footer class="statusbar">
+  <span>© 2026 Левитин Алексей</span>
+  <span class="status-ok">● built with html/css</span>
+</footer>
+
+</body>
+</html>
